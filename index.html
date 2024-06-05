@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Mensagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <label for="seletor-de-pais">Código do País</label>
+            <input type="text" id="seletor-de-pais" class="caixa-texto" placeholder="+55">
+        </div>
+        <div class="input-group">
+            <label for="numero-whatsapp">Número de WhatsApp</label>
+            <input type="text" id="numero-whatsapp" class="caixa-texto" placeholder="Digite o número de WhatsApp">
+        </div>
+        <div class="input-group">
+            <label for="nicho">Nicho do Cliente</label>
+            <input type="text" id="nicho" class="caixa-texto" placeholder="Digite o nicho do cliente">
+        </div>
+        <div class="input-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" class="caixa-message" rows="15" placeholder="A mensagem gerada aparecerá aqui"></textarea>
+        </div>
+        <button class="btn-generate">Gerar Mensagem</button>
+        <a href="#" class="a-chat">Enviar pelo WhatsApp</a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
